@@ -1,8 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {Navbar, Nav, Button} from 'react-bootstrap';
 import './App.css';
 
 import Home from './components/Home';
