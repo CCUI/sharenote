@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Form, Button, Row, Col } from 'react-bootstrap';
+import Facebook from './Facebook';
+import Google from './Google';
 
 class Signin extends Component {
 	constructor(props) {
@@ -88,6 +90,8 @@ class Signin extends Component {
 						</Col>
 					</Form.Group>
 				</Form>
+				<Facebook/>
+				<Google/>
 				{this.renderLogMessage()}
 			</div>
 		)
